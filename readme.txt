@@ -8,7 +8,7 @@ Stable tag: 4.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Randomly display content from a custom post type using a widget.
+Randomly display content from a custom post type.
 
 == Description ==
 
