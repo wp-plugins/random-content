@@ -37,3 +37,6 @@ Yes. Create a group, assign specific entries to the group, and choose the group 
 
 = 0.1 =
 * First released into the wild.
+
+= 0.2 =
+* Changed the type to hierarchical so they behave more like categories instead of tags.
