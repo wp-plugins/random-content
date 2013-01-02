@@ -5,7 +5,7 @@ Plugin URI: http://www.endocreative.com
 Description: Randomly display content from a custom post type using a widget
 Author: Endo Creative
 Author URI: http://www.endocreative.com
-Version: 0.1
+Version: 0.2
 */
 
 class Endo_Wrc_Post_Type {
@@ -32,7 +32,6 @@ class Endo_Wrc_Post_Type {
 				'not_found' => 'No Random Content Found',
 				'not_found_in_trash' => 'No Random Content Found in Trash'
 			),
-			'public' => true,
 			'show_ui' => true,
 			'supports' => array(
 				'title',
@@ -50,7 +49,7 @@ class Endo_Wrc_Post_Type {
 			'endo_wrc_cpt',
 			array(
 				'label' => __( 'Group' ),
-
+				'hierarchical' => true
 			)
 		);
 	}
